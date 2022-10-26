@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(22, 109, 36);
+}
+.principal {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    position: fixed;
+    list-style-type: none;
+}
+.principal div {
+    margin-inline: 50px;
+}
+h2 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Century Gothic';
+    margin: 50px 1px 60px 30px;
+}
+h3 {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    margin: 10px 1px 10px 50px;
+}
+h4 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+    margin: 10px 1px 10px 50px;
+}
+input {
+    border: 2px solid aliceblue;
+    margin: 1px 1px 1px 55px; 
+    width: 300px;
+    height: 30px;
+    background-color: rgb(147, 209, 185);
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+.geral button {
+    border: 2px solid aliceblue;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+    width: 304px;
+    height: 50px;
+    margin: 1px 1px 1px 55px; 
+    background-color: rgb(168, 117, 235);
+    font-family: 'Century Gothic';
+    transition-duration: .5s;
+}
+.geral button:hover {
+    background-color: white;
+    scale: 1.025;
+}
+header {
+    border-radius: 30px;
+    height: flex;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(147, 209, 185);
+    border: 4px solid white;
+    align-items: center;
+}
+#butoes button {
+    border: 2px solid aliceblue;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 20px 20px 20px 20px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(168, 117, 235);
+    font-family: 'Century Gothic';
+    transition-duration: .5s;
+    margin: 10px 50px 10px 10px;
+    max-width: 100%;
+}
+#butoes button:hover {
+    background-color: white;
+    scale: 1.025;
+}
+#butoes {
+    list-style-type: none;
+    max-width: 1000px;
+    height: auto;
+}
+#qualimc {
+    margin: 1px 1px 1px 55px; 
+    align-items: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    justify-content: space-between;
+    background-color: rgb(147, 209, 185);
+    border: 2px solid white;
+}
+.img{
+    display: flex;
+    max-width: 1000px;
+    height: auto;
+}
+.img img {
+    max-width: 100%;
+}

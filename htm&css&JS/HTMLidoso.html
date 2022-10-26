@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="imagens/balancinha.png" rel="icon">
+        <title>Calcule seu IMC</title>
+        <meta charset="utf-8">
+        <script src="JSidoso.js"></script>
+        <link rel = "stylesheet" href = "CSSidoso.css">
+    </head>
+    <body>
+        <header>
+            <h2>Calcule seu IMC Idoso</h2>
+            <ul id="butoes">
+                <li><a href="IMC.html"><button>Sobre o IMC</button></li></a>
+            </ul>
+        </header>
+        <div class="principal">
+            <div class="geral">
+                <h3>Altura (m)</h3>
+                <input type="number" placeholder="EX: 1.65" id="altura">
+                <h3>Peso (kg)</h3>
+                <input type="number" placeholder="EX: 69.9" id="peso"><br>
+                <h4 id="imc">Seu IMC é: </h4>
+                <h4 type="text" id="qualimc"><br></h4>
+                <button id="butao" type="button" onclick="calcular_imc()">Calcular IMC</button>
+            </div>
+            <div class="img">
+                <img id='img' src="imagens/imc.png" alt="">
+            </div>
+        </div>
+    </body>
+</html>
